@@ -14,4 +14,4 @@ batch_size: 5
 
 ### Results
 
-Due lack of GPU epoch is kept in just 1 but as number of epoch increased it is clear that total loss can be reduced a lot more and better performance can be achieved. Even if one epoch used loss is reduced around to 0.1.
+Due lack of GPU, total epoch is kept to just one but as number of epoch increased it is clear that total loss can be reduced a lot more and better performance can be achieved. Even if one epoch used, the loss is reduced around to 0.1.
