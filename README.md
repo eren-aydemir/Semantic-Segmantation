@@ -1,4 +1,4 @@
-# Semantic-Segmantation
+# Semantic Segmantation Project
 
 ### Introduction
 In this project the aim is to build Fully Connected Network (FCN) to segment road sections into a number of classes. VGG-16 image classifier is used at encoder side of FCN and decoder side has been trained by using KITTI dataset.
