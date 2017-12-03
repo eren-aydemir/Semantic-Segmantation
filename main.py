@@ -176,7 +176,7 @@ def run():
 
         # TODO: Build NN using load_vgg, layers, and optimize function
 
-        epochs = 10
+        epochs = 50
         batch_size = 5
 
         # TF placeholders
@@ -195,7 +195,10 @@ def run():
              correct_label, keep_prob, learning_rate)
 
         # TODO: Save inference data using helper.save_inference_samples
-        helper.save_inference_samples(runs_dir, data_dir, sess, image_shape, logits, keep_prob, input_image)
+        #helper.save_inference_samples(runs_dir, data_dir, sess, image_shape, logits, keep_prob, input_image)
+        
+        saver = tf.train.Saver()
+        saver.save(sess, 'model/model_v1.ckpt')
 
         # OPTIONAL: Apply the trained model to a video
 
